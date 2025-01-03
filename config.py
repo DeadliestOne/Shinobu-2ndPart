@@ -30,14 +30,12 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-UPSTREAM_REPO = getenv(
-    "UPSTREAM_REPO",
-    "https://github.com/AnonymousX1025/AnonXMusic",
-)
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
-GIT_TOKEN = getenv(
-    "GIT_TOKEN", None
-)  # Fill this variable if your upstream repository is private
+UPSTREAM_REPO = "https://github.com/DeadliestOne/Shinobu-2ndPart"
+
+UPSTREAM_BRANCH = "master"
+
+GIT_TOKEN = "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"
+ # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FallenAssociation")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/DevilsHeavenMF")
